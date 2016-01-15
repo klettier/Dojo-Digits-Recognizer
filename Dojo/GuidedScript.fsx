@@ -115,8 +115,8 @@ let someNumbers = [| 0 .. 10 |] // create an array from 0 to 10
 // You can access Array elements by index:
 let first = someNumbers.[0] 
 // You can also slice the array:
-let twoToFive = someNumbers.[ 1 .. 4 ] // grab a slice
-let upToThree = someNumbers.[ .. 2 ] 
+let twoToFive = someNumbers.[ 2 .. 5 ] // grab a slice
+let upToThree = someNumbers.[ .. 3 ] 
 // </F# QUICK-STARTER> 
 
 
